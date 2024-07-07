@@ -50,12 +50,12 @@
     @apply underline hover:decoration-2;
   }
   .half {
-    @apply flex md:flex-row flex-col-reverse justify-center sm:gap-12 max-container;
+    @apply flex md:flex-row flex-col-reverse justify-center sm:gap-8 pagecenter padding-x;
   }
   .title {
     @apply md:text-3xl text-xl font-bold;
-    &-lg {
-      @apply md:text-xl text-lg font-bold;
+    &-sup {
+      @apply md:text-6xl text-lg font-extrabold tracking-[-.1em];
     }
   }
   .para {
@@ -71,9 +71,6 @@
 @layer utilities {
   .padding {
     @apply md:px-16 px-8 md:py-24 py-12;
-  }
-  .padding-container {
-    @apply lg:px-24 sm:px-16 px-8;
   }
   .padding-x {
     @apply sm:px-16 px-8;
@@ -99,7 +96,7 @@
     @apply sm:pb-24 pb-12;
   }
   .pagecenter {
-    @apply max-w-[900px] mx-auto padding;
+    @apply max-w-[1250px] mx-auto;
   }
   .size-screen {
     @apply w-screen h-screen;

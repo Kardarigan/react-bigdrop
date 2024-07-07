@@ -9,48 +9,11 @@ $color_dark: #171a20;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: gotham, Arial, sans-serif;
-}
-
-@font-face {
-  font-family: gotham;
-  src: url(../assets/1744-font.otf);
-}
-
-@mixin backgroundGradient($alpha) {
-  background: -webkit-linear-gradient(
-    to right,
-    rgba($color_dark, $alpha),
-    rgba($color_second, $alpha)
-  );
-  background: linear-gradient(
-    to right,
-    rgba($color_dark, $alpha),
-    rgba($color_second, $alpha)
-  );
+  font-family: Arial, sans-serif;
 }
 
 .unset {
   all: unset !important;
-}
-.shadowAround {
-  box-shadow: inset 0px 0px 30px 30px rgba(black, 0.9);
-}
-.shadowFromTop {
-  background: linear-gradient(180deg, $color_dark -30%, transparent 100%);
-}
-.shadowFromBottom {
-  background: linear-gradient(0deg, $color_dark 0%, transparent 100%);
-}
-.fakeBorderDark {
-  box-shadow: 0 0 0 2px $color_dark inset;
-  -webkit-box-shadow: 0 0 0 2px $color_dark inset;
-  -moz-box-shadow: 0 0 0 2px $color_dark inset;
-}
-.fakeBorderLight {
-  box-shadow: 0 0 0 2px $color_prime inset;
-  -webkit-box-shadow: 0 0 0 2px $color_prime inset;
-  -moz-box-shadow: 0 0 0 2px $color_prime inset;
 }
 .displayTrans {
   transition: visibility 1s, opacity 0.2s linear;
