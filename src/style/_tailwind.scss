@@ -50,22 +50,22 @@
     @apply underline hover:decoration-2;
   }
   .half {
-    @apply flex md:flex-row flex-col-reverse justify-center sm:gap-8 pagecenter padding-x;
+    @apply flex md:flex-row flex-col-reverse justify-center sm:gap-5 pagecenter padding-x;
   }
   .title {
     @apply md:text-3xl text-xl font-bold;
     &-sup {
-      @apply md:text-6xl text-lg font-extrabold tracking-[-.1em];
+      @apply md:text-6xl text-5xl font-extrabold tracking-tight;
     }
   }
   .para {
-    @apply md:text-sm text-xs;
+    @apply max-md:text-sm text-slate-700 leading-8;
   }
   .field {
     @apply bg-slate-700 text-slate-200 border-0 text-sm rounded transition-all duration-100 focus-within:ring-1 focus-within:ring-blue-600 block w-full px-3;
   }
   .label {
-    @apply text-slate-200 md:text-sm text-xs font-bold;
+    @apply md:text-xs text-[12px] text-slate-600;
   }
 }
 @layer utilities {

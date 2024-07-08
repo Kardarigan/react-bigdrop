@@ -4,21 +4,23 @@ import { navbar } from "../Constants";
 
 const Navbar = () => {
   return (
-    <header className="pagecenter flex-seperate padding-x padding-t pb-12">
+    <header className="pagecenter flex-seperate padding-x padding-t pb-10">
       <Link to="/">
         <img src={Logo} alt="" />
       </Link>
-      <ul className="flex font-bold text-lg gap-x-5">
+      <navbar className="flex font-bold gap-x-5">
         {navbar.map((item, index) => {
           return (
-            <li key={index}>
-              <NavLink className="hover:text-slate-600" to={item.href}>
-                {item.label}
-              </NavLink>
-            </li>
+            <NavLink
+              key={index}
+              className="hover:text-slate-600"
+              to={item.href}
+            >
+              {item.label}
+            </NavLink>
           );
         })}
-      </ul>
+      </navbar>
     </header>
   );
 };
