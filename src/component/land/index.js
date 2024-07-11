@@ -1,9 +1,10 @@
-import { Landing_Hero } from "../Portal";
+import { Landing_Hero, Landing_Middle } from "../Portal";
 
 const index = () => {
   return (
     <>
       <Landing_Hero />
+      <Landing_Middle />
     </>
   );
 };

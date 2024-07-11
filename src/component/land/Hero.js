@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="half max-md:flex-col">
       <img src={Cover} alt="Hero" className="rounded-lg md:w-3/5" />
       <div className="py-6">
-        <h1 className="title-sup text-indigo-600">
+        <h1 className="title-lg text-indigo-600">
           BEER SO GOOD …<br />
           YOU WON’T MISS THE ALCOHOL
         </h1>
