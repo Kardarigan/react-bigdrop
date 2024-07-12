@@ -21,7 +21,7 @@ const Middle = () => {
         </Link>
       </div>
       <div
-        className="md:w-1/2 center-bg rounded p-8 pe-24"
+        className="md:w-1/2 center-bg rounded-lg p-8 pe-24"
         style={{ backgroundImage: `url(${poster})` }}
       >
         <h3 className="title">AF, GLUTEN-FREE, VEGAN, 4CALS PER 100ML?</h3>
