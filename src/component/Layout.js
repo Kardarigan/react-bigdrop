@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import { Navbar } from "./Portal";
+import { Footer, Navbar } from "./Portal";
 
 const Layout = () => {
   return (
@@ -8,6 +8,7 @@ const Layout = () => {
       <main className="relative">
         <Outlet />
       </main>
+      <Footer />
     </>
   );
 };

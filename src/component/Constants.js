@@ -21,3 +21,22 @@ export const navbar = [
     href: "/Contact us",
   },
 ];
+
+export const footer = [
+  {
+    label: "Terms",
+    href: "/",
+  },
+  {
+    label: "Privacy Policy",
+    href: "/",
+  },
+  {
+    label: "Ethics Policy",
+    href: "/",
+  },
+  {
+    label: "Site by Fork",
+    href: "/",
+  },
+];
